@@ -1,0 +1,27 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /static
+  static_dir: app/dist/static
+
+- url: /.*
+  script: main.app
+
+
+
+skip_files:
+# default
+- ^(.*/)?#.*#$
+- ^(.*/)?.*~$
+- ^(.*/)?.*\.py[co]$
+- ^(.*/)?.*/RCS/.*$
+- ^(.*/)?\..*$
+# end of default
+- ^node_modules$
+- ^(.*/)?\.vue$
+- ^(.*/)?\LICENSE$
+- ^(.*/)?\package.json$
+- ^(.*/)?\README.md$
+- ^(.*/)?\webpack.config.js$
