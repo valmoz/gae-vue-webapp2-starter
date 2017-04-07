@@ -19,7 +19,7 @@ skip_files:
 - ^(.*/)?.*/RCS/.*$
 - ^(.*/)?\..*$
 # end of default
-- ^node_modules$
+- ^app/node_modules$
 - ^(.*/)?\.vue$
 - ^(.*/)?\LICENSE$
 - ^(.*/)?\package.json$
