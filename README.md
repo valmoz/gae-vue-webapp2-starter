@@ -1,5 +1,5 @@
 # Google AppEngine Vue Webapp2 Starter
-**_NOTE: [Webapp2 is not yet compatible with Python 3 yet.](https://webapp2.readthedocs.io/en/latest/#requirements) This project will be updated if Webapp2 will be updated. Please, check the [Vue Flask Project](https://github.com/Valmoz/gae-vue-flask-starter) for Python 3 support._**
+**_NOTE: [Webapp2 is not compatible with Python 3 yet.](https://webapp2.readthedocs.io/en/latest/#requirements) This project will be updated if Webapp2 will be updated. Please, check the [Vue Flask Project](https://github.com/Valmoz/gae-vue-flask-starter) for Python 3 support._**
 
 A simple application for [Google App Engine](https://appengine.google.com/), using [Vue.js](https://vuejs.org/) on the frontend and [Webapp2](https://webapp2.readthedocs.io/) on the backend.
 This project can be deployed on Google AppEngine Python Standard Environment.
